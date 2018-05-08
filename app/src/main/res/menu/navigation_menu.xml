@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <item android:id="@+id/nav_account"
-            android:title="My Account"/>
+        <item android:id="@+id/nav_earnings"
+            android:icon="@mipmap/ic_account_balance_black_24dp"
+            android:title="Einnahmen"/>
+
+        <item android:id="@+id/nav_cost"
+            android:icon="@mipmap/ic_shopping_cart_black_24dp"
+            android:title="Ausgaben"/>
+
+        <item android:id="@+id/nav_view"
+            android:icon="@mipmap/ic_import_contacts_black_24dp"
+            android:title="Übersicht"/>
 
         <item android:id="@+id/nav_settings"
-            android:title="Settings"/>
-
-        <item android:id="@+id/nav_logout"
-            android:title="Logout"/>
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Einstellungen"/>
 </menu>
